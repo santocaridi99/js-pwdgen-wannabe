@@ -11,7 +11,7 @@ let a = 1;
 console.log(a);
 //qui prenderò id pass nell'html e metterò dentro gli input scritti sopra
 let htmlElement = document.getElementById('password');
-htmlElement.innerHTML = `Password : ${firstWord}${secondWord}${a}`
+htmlElement.innerHTML = `Password : ${firstWord}${secondWord}${a}`;
 
 //inserisco due numeri interi e una stringa con scritta 22
 let number1 = 20;//intero
@@ -23,7 +23,8 @@ let test1 = number1 + number2;
 console.log(test1);
 //voglio che in html verrà scritto h1 rosso con prima parola + somma + numero4 stringa
 console.log(firstWord + test1 + number4);
-document.getElementById('key').innerHTML = `key : ${firstWord}${test1}${number4} `
+//altro metodo per mettere nel documento il mio contenuto
+document.getElementById('key').innerHTML = `key : ${firstWord}${test1}${number4} `;
 
 
 
